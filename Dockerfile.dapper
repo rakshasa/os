@@ -74,7 +74,7 @@ ARG BUILD_DOCKER_URL_mips64el=https://github.com/burmilla/docker/releases/downlo
 
 ARG OS_RELEASES_YML=https://raw.githubusercontent.com/burmilla/releases/v2.0.x
 
-ARG OS_SERVICES_REPO=https://raw.githubusercontent.com/${OS_REPO}/os-services
+ARG OS_SERVICES_REPO=https://raw.githubusercontent.com/rakshasa/os-services
 ARG IMAGE_NAME=${OS_REPO}/os
 
 ARG OS_CONSOLE=default
